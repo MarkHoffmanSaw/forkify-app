@@ -446,20 +446,22 @@ body {
 }
 .search-results .search-operations {
   margin: 10px;
-  font-size: 1.8rem;
-  justify-content: center space-between;
+  font-size: 2rem;
+  text-align: center;
 }
 .search-results .search-operations__btn--duration {
-  background-color: orange;
-  border-radius: 8px;
+  background-color: #f38e82;
+  border-color: #f38e82;
+  border-radius: 10px;
   color: white;
-  padding: 6px;
+  padding: 8px;
 }
 .search-results .search-operations__btn--ingredients {
-  background-color: orange;
-  border-radius: 8px;
+  background-color: #f38e82;
+  border-color: #f38e82;
+  border-radius: 10px;
   color: white;
-  padding: 6px;
+  padding: 8px;
 }
 
 .results {

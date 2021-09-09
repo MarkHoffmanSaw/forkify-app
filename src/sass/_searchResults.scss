@@ -5,21 +5,21 @@
 
   .search-operations {
     margin: 10px;
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: center;
 
     &__btn {
       &--duration {
-        background-color: orange;
-        border-radius: 8px;
+        background-color: #f38e82;
+        border-radius: 10px;
         color: white;
-        padding: 6px;
+        padding: 8px;
       }
       &--ingredients {
-        background-color: orange;
-        border-radius: 8px;
+        background-color: #f38e82;
+        border-radius: 10px;
         color: white;
-        padding: 6px;
+        padding: 8px;
       }
     }
   }
