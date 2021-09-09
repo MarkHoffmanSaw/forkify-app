@@ -440,9 +440,26 @@ body {
 }
 
 .search-results {
-  padding: 3rem 0;
+  padding: 1rem 0;
   display: flex;
   flex-direction: column;
+}
+.search-results .search-operations {
+  margin: 10px;
+  font-size: 1.8rem;
+  justify-content: center space-between;
+}
+.search-results .search-operations__btn--duration {
+  background-color: orange;
+  border-radius: 8px;
+  color: white;
+  padding: 6px;
+}
+.search-results .search-operations__btn--ingredients {
+  background-color: orange;
+  border-radius: 8px;
+  color: white;
+  padding: 6px;
 }
 
 .results {
@@ -465,8 +482,15 @@ body {
 .pagination__btn--next {
   float: right;
 }
-.pagination__pages-info {
-  font-size: 1.5 rem;
+.pagination__pages {
+  color: #f38e82;
+  font-size: 1.5rem;
+  border: 1px solid #f38e82;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
 }
 
 .copyright {

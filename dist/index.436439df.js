@@ -1900,7 +1900,7 @@ class PaginationView extends _viewJsDefault.default {
     _generateMarkup() {
         const curPage = this._data.page;
         const numPages = Math.ceil(this._data.results.length / this._data.resultsPerPage);
-        const allPages = `\n      <span class="pagination__pages-info">Total pages: ${this._data.results.length}</span>\n    `;
+        const allPages = `\n      <span class="pagination__pages">Total pages: ${this._data.results.length}</span>\n    `;
         // Page 1, and there are other pages
         if (curPage === 1 && numPages > 1) return `\n          <button data-goto="${curPage + 1}" class="btn--inline pagination__btn--next">\n            <span>Page ${curPage + 1}</span>\n            <svg class="search__icon">\n              <use href="${_iconsSvgDefault.default}#icon-arrow-right"></use>\n            </svg>\n          </button>\n          ${allPages}\n        `;
         // Last page

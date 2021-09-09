@@ -1,7 +1,28 @@
 .search-results {
-  padding: 3rem 0;
+  padding: 1rem 0;
   display: flex;
   flex-direction: column;
+
+  .search-operations {
+    margin: 10px;
+    font-size: 1.8rem;
+    text-align: center;
+
+    &__btn {
+      &--duration {
+        background-color: orange;
+        border-radius: 8px;
+        color: white;
+        padding: 6px;
+      }
+      &--ingredients {
+        background-color: orange;
+        border-radius: 8px;
+        color: white;
+        padding: 6px;
+      }
+    }
+  }
 }
 
 .results {
@@ -28,8 +49,15 @@
     }
   }
 
-  &__pages-info {
-    font-size: 1.5 rem;
+  &__pages {
+    color: #f38e82;
+    font-size: 1.5rem;
+    border: 1px solid #f38e82;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
   }
 }
 
