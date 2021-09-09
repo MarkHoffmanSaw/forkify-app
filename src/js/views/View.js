@@ -3,7 +3,7 @@ import icons from 'url:../../img/icons.svg';
 export default class View {
   _data;
 
-  /**
+  /** __ JS DOC __
    * Render the recieved object to the DOM
    * @param {Object | Object[]} data The data to be rendered (recipe)
    * @param {boolean} [render=true] If false, create markup string

@@ -451,14 +451,12 @@ body {
 }
 .search-results .search-operations__btn--duration {
   background-color: #f38e82;
-  border-color: #f38e82;
   border-radius: 10px;
   color: white;
   padding: 8px;
 }
 .search-results .search-operations__btn--ingredients {
   background-color: #f38e82;
-  border-color: #f38e82;
   border-radius: 10px;
   color: white;
   padding: 8px;
@@ -472,6 +470,7 @@ body {
 .pagination {
   margin-top: auto;
   padding: 0 3.5rem;
+  text-align: center;
 }
 .pagination::after {
   content: "";
@@ -485,14 +484,17 @@ body {
   float: right;
 }
 .pagination__pages {
-  color: #f38e82;
   font-size: 1.5rem;
-  border: 1px solid #f38e82;
   font-weight: 600;
-  border-radius: 6px;
-  padding: 5px;
+  background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+  border-radius: 10rem;
+  border: none;
+  color: #fff;
+  align-items: center;
   display: inline-block;
-  text-align: center;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .copyright {

@@ -20,7 +20,7 @@ class PaginationView extends View {
       this._data.results.length / this._data.resultsPerPage
     );
     const allPages = `
-      <span class="pagination__pages">Page: ${curPage}</span>
+      <span class="pagination__pages">${curPage}</span>
     `;
 
     // Page 1, and there are other pages
